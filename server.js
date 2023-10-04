@@ -7,9 +7,6 @@ app.get("/",(req,res)=>
 {
   res.send("Welcome to IET");
   
-//third o/p display linking or add all static html pages
-app.use(express.static('public'));
-
 }
 );
 
