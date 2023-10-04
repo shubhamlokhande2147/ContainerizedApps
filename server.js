@@ -9,6 +9,10 @@ app.get("/",(req,res)=>
 }
 );
 
+//third o/p display linking or add all static html pages
+app.use(express.static('public'));
+
+
 //second o/p display using localhost:8000/product
 app.get("/product",(req,res)=>
   {
