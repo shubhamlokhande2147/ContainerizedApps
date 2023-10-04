@@ -6,11 +6,12 @@ var app = express();
 app.get("/",(req,res)=>
 {
   res.send("Welcome to IET");
-}
-);
-
+  
 //third o/p display linking or add all static html pages
 app.use(express.static('public'));
+
+}
+);
 
 
 //second o/p display using localhost:8000/product
